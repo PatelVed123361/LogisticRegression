@@ -18,7 +18,7 @@ def add_weighted_score(df):
     )
     return df
 
-with open("logistic_regression.pkl", "rb") as f:
+with open("logistic_new_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 app = Flask(__name__)
